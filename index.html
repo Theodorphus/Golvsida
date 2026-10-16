@@ -3,9 +3,9 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Stockholms Trägolv — Äkta fiskbensparkett & massiva trägolv | Solna</title>
+<title>Golvstudion — Äkta fiskbensparkett & massiva trägolv | Solna</title>
 <meta name="description" content="Fiskbensspecialisten sedan över 30 år. Massiv fiskbensparkett, chevron och slottsplank i ek, ask och valnöt. Besök vårt showroom i Solna eller boka hembesök." />
-<meta property="og:title" content="Stockholms Trägolv — Fiskbensspecialisten" />
+<meta property="og:title" content="Golvstudion — Fiskbensspecialisten" />
 <meta property="og:description" content="Äkta fiskbensparkett ger känslan av lyx i ditt hem. Showroom i Solna, hembesök i hela Stockholm." />
 <meta property="og:type" content="website" />
 <meta name="theme-color" content="#2b2119" />
@@ -16,7 +16,7 @@
 
 <style>
 /* ============================================================
-   STOCKHOLMS TRÄGOLV — Design system
+   GOLVSTUDION — Design system
    Warm luxury: mörk ek, sand, mässing
    ============================================================ */
 
@@ -537,6 +537,36 @@ body.menu-open .mobile-menu{clip-path:inset(0 0 0 0);pointer-events:auto}
 @media (max-width:480px){
   .hero__actions .btn,.cta-band__actions .btn{width:100%;justify-content:center}
 }
+/* Kundens logotyp och fotografier */
+.brand{flex:none}
+.mobile-menu{z-index:99}
+body.menu-open{overflow:hidden}
+section[id]{scroll-margin-top:84px}
+.brand__logo{width:220px;height:60px;object-fit:cover;border-radius:var(--radius)}
+.brand__logo--footer{width:260px;height:90px;margin-bottom:1.2rem}
+.hero__media img{object-position:center 62%}
+.gallery{grid-template-columns:repeat(12,minmax(0,1fr));grid-auto-rows:230px}
+.gallery__item{grid-column:span 4}
+.gallery__item--main{grid-column:span 7;grid-row:span 2}
+.gallery__item--secondary{grid-column:span 5;grid-row:span 2}
+.gallery__item .cap{opacity:1;transform:none}
+@media (max-width:1100px){
+  .nav__links,.nav__phone,.nav__cta .btn{display:none}
+  .burger{display:block}
+}
+@media (max-width:1024px){
+  .gallery{grid-template-columns:repeat(2,minmax(0,1fr))!important;grid-auto-rows:240px}
+  .gallery__item{grid-column:span 1;grid-row:span 1}
+  .gallery__item--main{grid-row:span 2}
+}
+@media (max-width:760px){
+  .brand__logo{width:190px;height:54px}
+  .brand__logo--footer{width:240px;height:80px}
+  .hero{padding-top:120px}
+  .gallery{grid-template-columns:minmax(0,1fr)!important;grid-auto-rows:auto}
+  .gallery__item{grid-column:1;grid-row:auto;aspect-ratio:4/5}
+  .gallery__item--main{aspect-ratio:4/3}
+}
 </style>
 </head>
 <body>
@@ -544,9 +574,8 @@ body.menu-open .mobile-menu{clip-path:inset(0 0 0 0);pointer-events:auto}
 <!-- ==================== HEADER ==================== -->
 <header class="header" id="header">
   <nav class="nav" aria-label="Huvudmeny">
-    <a href="#top" class="brand" aria-label="Stockholms Trägolv – startsida">
-      <span class="brand__name">Stockholms&nbsp;Trägolv</span>
-      <span class="brand__tag">Fiskbensspecialisten</span>
+    <a href="#top" class="brand" aria-label="Golvstudion – startsida">
+      <img class="brand__logo" src="bilder/Logga.jpg" alt="Golvstudion – Vackra trägolv" width="922" height="497" />
     </a>
     <ul class="nav__links">
       <li><a href="#kollektion">Kollektion</a></li>
@@ -568,7 +597,7 @@ body.menu-open .mobile-menu{clip-path:inset(0 0 0 0);pointer-events:auto}
 </header>
 
 <!-- ==================== MOBILE MENU ==================== -->
-<div class="mobile-menu" id="mobileMenu">
+<div class="mobile-menu" id="mobileMenu" inert>
   <nav aria-label="Mobilmeny">
     <a href="#kollektion">Kollektion</a>
     <a href="#galleri">Galleri</a>
@@ -586,7 +615,7 @@ body.menu-open .mobile-menu{clip-path:inset(0 0 0 0);pointer-events:auto}
 <!-- ==================== HERO ==================== -->
 <section class="hero">
   <div class="hero__media">
-    <img src="bilder/hero.jpg" alt="Ljust vardagsrum med fiskbensparkett i ek och stora fönster" fetchpriority="high" />
+    <img src="bilder/Kundens%20bilder/IMG_0332%20(1).jpg" alt="Ljust trägolv i geometriskt mönster mellan rum med glasdörrar" width="1170" height="1538" fetchpriority="high" />
   </div>
   <div class="hero__inner">
     <div class="reveal in">
@@ -617,7 +646,7 @@ body.menu-open .mobile-menu{clip-path:inset(0 0 0 0);pointer-events:auto}
   <div class="wrap intro__grid">
     <div class="intro__figure reveal">
       <div class="frame">
-        <img src="bilder/intro-hantverk.jpg" alt="Hantverkare lägger fiskbensparkett med precision" loading="lazy" />
+        <img src="bilder/Kundens%20bilder/IMG_0333%20(1).jpg" alt="Mönsterparkett med inramade rutor framför ett fönster" loading="lazy" />
       </div>
       <div class="intro__badge">
         <b>30+</b><span>år av hantverk</span>
@@ -626,10 +655,10 @@ body.menu-open .mobile-menu{clip-path:inset(0 0 0 0);pointer-events:auto}
     <div class="intro__body reveal" data-d="1">
       <span class="eyebrow">Välkommen in</span>
       <h2 class="display">Ett golv lagt för att leva med — inte bytas ut</h2>
-      <p>Hos Stockholms Trägolv har vi ägnat mer än tre decennier åt en enda sak: att lägga fiskbensparkett och chevrongolv som får ett rum att andas. Vi tror på massivt trä, äkta material och ett hantverk som märks i varje skarv.</p>
+      <p>Hos Golvstudion har vi ägnat mer än tre decennier åt en enda sak: att lägga fiskbensparkett och chevrongolv som får ett rum att andas. Vi tror på massivt trä, äkta material och ett hantverk som märks i varje skarv.</p>
       <p>I vårt showroom på Råsundavägen i Solna kan du känna på plankorna, se hur ljuset faller över mönstret och få personlig rådgivning — utan brådska. Vill du hellre se golvet hemma hos dig? Vi kommer gärna på ett kostnadsfritt hembesök i hela Stockholm.</p>
       <div class="signature">
-        <span class="signature__mark">Stockholms Trägolv</span>
+        <span class="signature__mark">Golvstudion</span>
         <span class="signature__meta">Butik &amp; Showroom · Solna</span>
       </div>
     </div>
@@ -761,39 +790,30 @@ body.menu-open .mobile-menu{clip-path:inset(0 0 0 0);pointer-events:auto}
   <div class="wrap">
     <div class="showcase__head reveal">
       <span class="eyebrow center">Galleri</span>
-      <h2 class="display">Upptäck hela vår värld av fiskbensparkett &amp; chevron</h2>
-      <p>Verkliga hem, verkliga golv. Se hur mönstret, träslaget och ljuset samspelar — inspiration för ditt nästa rum.</p>
+      <h2 class="display">Trägolv med karaktär</h2>
+      <p>Från klassiska mönster till breda plankor. Upptäck detaljerna som ger varje rum sitt eget uttryck.</p>
     </div>
 
     <div class="gallery">
-      <div class="gallery__item wide tall reveal">
-        <img src="bilder/galleri-vardagsrum.jpg" alt="Vardagsrum med fiskbensparkett i ek" loading="lazy" />
-        <span class="cap">Fiskben i ek — vardagsrum</span>
+      <div class="gallery__item gallery__item--main reveal">
+        <img src="bilder/Kundens%20bilder/IMG_0332%20(1).jpg" alt="Ljust trägolv med stora geometriska former och svarta glasdörrar" loading="lazy" />
+        <span class="cap">Geometriska mönster</span>
       </div>
-      <div class="gallery__item tall reveal" data-d="1">
-        <img src="bilder/galleri-hall.jpg" alt="Hall med fiskbensparkett" loading="lazy" />
-        <span class="cap">Hall i fiskben</span>
-      </div>
-      <div class="gallery__item reveal" data-d="2">
-        <img src="bilder/galleri-chevron-ask.jpg" alt="Chevrongolv i ljus ask" loading="lazy" />
-        <span class="cap">Chevron, ask</span>
-      </div>
-      <div class="gallery__item reveal" data-d="3">
-        <!-- TILLFÄLLIG: byt till bilder/galleri-slottsplank.jpg + bildtext "Slottsplank" när bilden finns -->
-        <img src="bilder/cta-band.jpg" alt="Ekgolv i varmt kvällsljus" loading="lazy" />
-        <span class="cap">Ek i kvällsljus</span>
-      </div>
-      <div class="gallery__item wide reveal" data-d="1">
-        <img src="bilder/galleri-kok-valnot.jpg" alt="Kök med trägolv i valnöt" loading="lazy" />
-        <span class="cap">Kök i valnöt</span>
+      <div class="gallery__item gallery__item--secondary reveal" data-d="1">
+        <img src="bilder/Kundens%20bilder/IMG_0333%20(1).jpg" alt="Dekorativ mönsterparkett med inramade rutor" loading="lazy" />
+        <span class="cap">Klassisk mönsterparkett</span>
       </div>
       <div class="gallery__item reveal" data-d="2">
-        <img src="bilder/galleri-narbild.jpg" alt="Närbild på fiskbensmönster i ek" loading="lazy" />
-        <span class="cap">Närbild, mönster</span>
+        <img src="bilder/Kundens%20bilder/IMG_0334%20(1).jpg" alt="Närbild på ett ljust trägolv lagt i vinklat mönster vid ett fönster" loading="lazy" />
+        <span class="cap">Mönster &amp; detaljer</span>
       </div>
       <div class="gallery__item reveal" data-d="3">
-        <img src="bilder/galleri-sovrum.jpg" alt="Sovrum med ekgolv i fiskbensmönster" loading="lazy" />
-        <span class="cap">Sovrum, ek natur</span>
+        <img src="bilder/Kundens%20bilder/IMG_0336%20(1).jpg" alt="Träparkett i rutmönster intill en trätrappa" loading="lazy" />
+        <span class="cap">Parkett i varma toner</span>
+      </div>
+      <div class="gallery__item reveal" data-d="1">
+        <img src="bilder/Kundens%20bilder/IMG_0337%20(1).jpg" alt="Breda träplankor i ett ljust hem med matplats" loading="lazy" />
+        <span class="cap">Breda plankor &amp; naturlig struktur</span>
       </div>
     </div>
 
@@ -843,7 +863,7 @@ body.menu-open .mobile-menu{clip-path:inset(0 0 0 0);pointer-events:auto}
     </div>
     <div class="process__figure reveal" data-d="1">
       <div class="frame">
-        <img src="bilder/process-laggning.jpg" alt="Golvläggare mäter och lägger fiskbensparkett" loading="lazy" />
+        <img src="bilder/Kundens%20bilder/IMG_0334%20(1).jpg" alt="Detalj av ett trägolv i vinklat mönster vid en golvlist" loading="lazy" />
       </div>
     </div>
   </div>
@@ -852,7 +872,7 @@ body.menu-open .mobile-menu{clip-path:inset(0 0 0 0);pointer-events:auto}
 <!-- ==================== CTA BAND ==================== -->
 <section class="section cta-band">
   <div class="cta-band__media">
-    <img src="bilder/cta-band.jpg" alt="" loading="lazy" />
+    <img src="bilder/Kundens%20bilder/IMG_0337%20(1).jpg" alt="" loading="lazy" />
   </div>
   <div class="wrap">
     <span class="eyebrow center">Redo att börja?</span>
@@ -893,7 +913,7 @@ body.menu-open .mobile-menu{clip-path:inset(0 0 0 0);pointer-events:auto}
           <svg class="info-row__icon" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg>
           <div>
             <h4>E-post</h4>
-            <p><a href="mailto:info@stockholmstragolv.se">info@stockholmstragolv.se</a></p>
+            <p><a href="mailto:golvstudion@outlook.com">golvstudion@outlook.com</a></p>
             <p class="muted">Vi svarar oftast inom en arbetsdag</p>
           </div>
         </div>
@@ -926,7 +946,7 @@ body.menu-open .mobile-menu{clip-path:inset(0 0 0 0);pointer-events:auto}
   <div class="wrap">
     <div class="footer__top">
       <div class="footer__brand">
-        <span class="brand__name" style="font-family:var(--serif);font-weight:600">Stockholms Trägolv</span>
+        <a href="#top" aria-label="Golvstudion – startsida"><img class="brand__logo brand__logo--footer" src="bilder/Logga.jpg" alt="Golvstudion – Vackra trägolv" width="922" height="497" loading="lazy" /></a>
         <p>Fiskbensspecialisten sedan 1990. Massiva trägolv i ek, ask och valnöt — lagda med hantverk som håller i generationer. Showroom i Solna, hembesök i hela Stockholm.</p>
       </div>
       <div class="footer__col">
@@ -942,13 +962,13 @@ body.menu-open .mobile-menu{clip-path:inset(0 0 0 0);pointer-events:auto}
         <h4>Kontakt</h4>
         <ul>
           <li><a href="tel:+46790591130">0790-59 11 30</a></li>
-          <li><a href="mailto:info@stockholmstragolv.se">info@stockholmstragolv.se</a></li>
+          <li><a href="mailto:golvstudion@outlook.com">golvstudion@outlook.com</a></li>
           <li><a href="https://maps.google.com/?q=Råsundavägen+57+Solna" target="_blank" rel="noopener">Råsundavägen 57, Solna</a></li>
         </ul>
       </div>
     </div>
     <div class="footer__bottom">
-      <span>© <span id="year">2026</span> Stockholms Trägolv · Fiskbensspecialisten</span>
+      <span>© <span id="year">2026</span> Golvstudion · Fiskbensspecialisten</span>
       <div class="footer__social">
         <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a>
         <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
@@ -973,13 +993,16 @@ body.menu-open .mobile-menu{clip-path:inset(0 0 0 0);pointer-events:auto}
 
   /* --- Mobil meny --- */
   var burger = doc.getElementById("burger");
+  var mobileMenu = doc.getElementById("mobileMenu");
   var closeMenu = function(){
     doc.body.classList.remove("menu-open");
+    mobileMenu.inert = true;
     burger.setAttribute("aria-expanded","false");
     burger.setAttribute("aria-label","Öppna meny");
   };
   burger.addEventListener("click", function(){
     var open = doc.body.classList.toggle("menu-open");
+    mobileMenu.inert = !open;
     burger.setAttribute("aria-expanded", open ? "true" : "false");
     burger.setAttribute("aria-label", open ? "Stäng meny" : "Öppna meny");
   });
